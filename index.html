@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecnologías del Proyecto</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Particles Background -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Navigation -->
+    <nav class="nav" id="navbar">
+        <div class="nav-container">
+            <div class="logo">TomanService</div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="#technologies" class="nav-link">Tecnologías</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Habilidades</a></li>
+                <li class="nav-item"><a href="#gallery" class="nav-link">Galería</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">Tecnologías del Futuro</h1>
+            <p class="hero-subtitle">Construyendo experiencias digitales excepcionales con las herramientas más avanzadas</p>
+            <a href="#technologies" class="cta-button">Explorar Tecnologías</a>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section class="tech-container" id="technologies">
+        <div class="section">
+            <div class="section-header">
+                <h2 class="section-title">Stack Tecnológico</h2>
+            </div>
+            
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <div class="card-header">
+                        <i class="fas fa-server card-icon"></i>
+                        <h3 class="card-title">Backend</h3>
+                    </div>
+                    <ul class="tech-list">
+                        <li class="tech-item"><i class="fab fa-node-js"></i><span>Node.js</span></li>
+                        <li class="tech-item"><i class="fas fa-server"></i><span>Express.js</span></li>
+                        <li class="tech-item"><i class="fas fa-database"></i><span>Prisma ORM</span></li>
+                        <li class="tech-item"><i class="fas fa-shield-alt"></i><span>bcrypt</span></li>
+                        <li class="tech-item"><i class="fas fa-robot"></i><span>OpenAI SDK</span></li>
+                        <li class="tech-item"><i class="fas fa-arrow-alt-circle-up"></i><span>Axios</span></li>
+                        <li class="tech-item"><i class="fas fa-lock"></i><span>CORS</span></li>
+                        <li class="tech-item"><i class="fab fa-js"></i><span>TypeScript</span></li>
+                    </ul>
+                </div>
+
+                <div class="tech-card">
+                    <div class="card-header">
+                        <i class="fas fa-paint-brush card-icon"></i>
+                        <h3 class="card-title">Frontend</h3>
+                    </div>
+                    <ul class="tech-list">
+                        <li class="tech-item"><i class="fab fa-html5"></i><span>HTML5</span></li>
+                        <li class="tech-item"><i class="fab fa-css3-alt"></i><span>CSS3</span></li>
+                        <li class="tech-item"><i class="fab fa-js"></i><span>JavaScript ES6+</span></li>
+                        <li class="tech-item"><i class="fas fa-mobile-alt"></i><span>Responsive Design</span></li>
+                        <li class="tech-item"><i class="fas fa-palette"></i><span>Animaciones CSS</span></li>
+                        <li class="tech-item"><i class="fas fa-rocket"></i><span>Progressive Web App</span></li>
+                    </ul>
+                </div>
+
+                <div class="tech-card">
+                    <div class="card-header">
+                        <i class="fas fa-tools card-icon"></i>
+                        <h3 class="card-title">Herramientas</h3>
+                    </div>
+                    <ul class="tech-list">
+                        <li class="tech-item"><i class="fas fa-vial"></i><span>Jest + Supertest</span></li>
+                        <li class="tech-item"><i class="fas fa-terminal"></i><span>Ts-node</span></li>
+                        <li class="tech-item"><i class="fas fa-sync-alt"></i><span>Nodemon</span></li>
+                        <li class="tech-item"><i class="fas fa-code-branch"></i><span>Babel</span></li>
+                        <li class="tech-item"><i class="fas fa-exchange-alt"></i><span>Cross-env</span></li>
+                        <li class="tech-item"><i class="fas fa-box"></i><span>NPM/Yarn</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section" id="skills">
+        <div class="section-header">
+            <h2 class="section-title">Nivel de Dominio</h2>
+        </div>
+        
+        <div class="skill-item">
+            <div class="skill-header">
+                <span class="skill-name">JavaScript/TypeScript</span>
+                <span class="skill-percentage">92%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress" data-width="92"></div>
+            </div>
+        </div>
+
+        <div class="skill-item">
+            <div class="skill-header">
+                <span class="skill-name">Node.js & Express</span>
+                <span class="skill-percentage">88%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress" data-width="88"></div>
+            </div>
+        </div>
+
+        <div class="skill-item">
+            <div class="skill-header">
+                <span class="skill-name">Frontend Development</span>
+                <span class="skill-percentage">85%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress" data-width="85"></div>
+            </div>
+        </div>
+
+        <div class="skill-item">
+            <div class="skill-header">
+                <span class="skill-name">Database SqLite</span>
+                <span class="skill-percentage">78%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress" data-width="78"></div>
+            </div>
+        </div>
+
+        <div class="skill-item">
+            <div class="skill-header">
+                <span class="skill-name">Testing & DevOps</span>
+                <span class="skill-percentage">82%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress" data-width="82"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="section-header">
+            <h2 class="section-title">Estadísticas del Proyecto</h2>
+        </div>
+        
+        <div class="stats-grid">
+            <div class="stat-item">
+                <span class="stat-number" data-count="18">0</span>
+                <span class="stat-label">Tecnologías</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" data-count="6">0</span>
+                <span class="stat-label">Páginas</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" data-count="100">0</span>
+                <span class="stat-label">% Responsive</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" data-count="3">0</span>
+                <span class="stat-label">Meses Desarrollo</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section" id="gallery">
+        <div class="section-header">
+            <h2 class="section-title">Galería del Proyecto</h2>
+        </div>
+        
+        <div class="gallery-grid">
+            <div class="gallery-card">
+                <img src="images/img1.jpg" alt="Formulario de Registro" class="gallery-image">
+                <div class="gallery-content">
+                    <h3 class="gallery-title">Formulario de Registro</h3>
+                    <p class="gallery-description">Interfaz moderna con validación en tiempo real y experiencia de usuario optimizada.</p>
+                </div>
+            </div>
+            
+            <div class="gallery-card">
+                <img src="images/img2.jpg" alt="Dashboard" class="gallery-image">
+                <div class="gallery-content">
+                    <h3 class="gallery-title">Dashboard Principal</h3>
+                    <p class="gallery-description">Panel de control intuitivo con métricas en tiempo real y navegación fluida.</p>
+                </div>
+            </div>
+            
+            <div class="gallery-card">
+                <img src="images/img3.jpg" alt="Servicios" class="gallery-image">
+                <div class="gallery-content">
+                    <h3 class="gallery-title">Página de Servicios</h3>
+                    <p class="gallery-description">Catálogo de servicios con diseño responsivo y animaciones suaves.</p>
+                </div>
+            </div>
+            
+            <div class="gallery-card">
+                <img src="images/img4.jpg" alt="Contacto" class="gallery-image">
+                <div class="gallery-content">
+                    <h3 class="gallery-title">Formulario de Contacto</h3>
+                    <p class="gallery-description">Sistema de contacto con validación avanzada y notificaciones instantáneas.</p>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <img src="images/img5.jpg" alt="Servicios Destacados" class="gallery-image">
+                <div class="gallery-content">
+                    <h3 class="gallery-title">Servicios Destacados</h3>
+                    <p class="gallery-description">Vista general de los servicios ofrecidos en tarjetas informativas.</p>
+                </div>
+            </div>
+            
+            <div class="gallery-card">
+                <img src="images/img6.jpg" alt="Página Inicial" class="gallery-image">
+                <div class="gallery-content">
+                    <h3 class="gallery-title">Página Inicial</h3>
+                    <p class="gallery-description">Página inicial moderna con enlaces y menú responsive.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
